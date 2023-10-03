@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', 'Verdana', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto;
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: auto;
+	margin-right:auto;
+    width: 313px;
+}
+
+.table {
+	display: table;
+	border: 1px solid #555
+}
+
+.table-caption {
+	display: table-caption;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+    font-weight: bold
+}
+
+.table-colgroup {
+	display: table-column-group;
+}
+
+.table-col {
+	display: table-column;
+}
+
+.table-thead {
+	display: table-header-group;
+}
+
+.table-tbody {
+	display: table-row-group;
+}
+
+.table-tfoot {
+	display: table-footer-group;
+}
+
+.table-tr {
+	display: table-row;
+}
+
+.table-th {
+	display: table-cell;
+	padding: 10px;
+	border: 1px solid #555;
+	font-weight: bold;
+	text-align: left;
+}
+
+.table-td {
+	display: table-cell;
+	padding: 10px;
+	border: 1px solid #555;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;   
+    background-color: #6379cf;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.235);
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid #478dfb
+}
+
+.btn:hover {
+    background-color: #404e88;
+}
+
+.btn:active {
+    box-shadow: none;
+    top: 5px;
+  }
+
+.modal {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); 
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+}
+
+.modal:target {
+    opacity: 1; 
+    pointer-events: auto;
+}
+
+.modal-window {
+    position: relative;
+    margin: 10px auto;
+	max-width: 500px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close {
+    font-size: 24px;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    text-decoration: none;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+
+.student-info {
+    padding: 4px 0px;
+}
